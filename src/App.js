@@ -40,7 +40,7 @@ class App extends Component {
 
   render() {
     const currentTodos = this.state.todos.map((e, i) => (
-      <ToDoItem todo={e} key={i} item={i} deleteItem={()=>(this.HandleDeleteItem(i))} />
+      <ToDoItem todo={e} key={i} deleteItem={()=>(this.HandleDeleteItem(i))} />
     ));    
     return (
       <>

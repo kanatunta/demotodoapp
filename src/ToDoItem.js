@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-// export default class ToDoItem extends Component {
+// export default class ToDoItem extends React.Component {
 //     constructor(){
 //         super();
 //     }
